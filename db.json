@@ -15,5 +15,11 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "cakes": {
+    "id": 1,
+    "name": "Vanillekeks",
+    "description": "Nice flavor.",
+    "cost": 130
   }
 }
