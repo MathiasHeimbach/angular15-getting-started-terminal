@@ -11,7 +11,7 @@ import { CustomurlHttpGenerator } from './shared/store/customurl-http-generator'
 import { entityConfig } from './entity-metadata';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
-import { CakesModule } from './cakes/cakes.module';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -19,14 +19,14 @@ import { CakesModule } from './cakes/cakes.module';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     RouterModule,
     ReactiveFormsModule,
     HttpClientModule,
     StoreModule.forRoot({}, {}),
     EffectsModule.forRoot([]),
     EntityDataModule.forRoot(entityConfig),
-    StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: !isDevMode() }),
-    CakesModule
+    StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: !isDevMode() })
   ],
   bootstrap: [
     AppComponent

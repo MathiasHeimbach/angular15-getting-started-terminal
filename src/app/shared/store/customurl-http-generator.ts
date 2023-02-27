@@ -14,8 +14,8 @@ export class CustomurlHttpGenerator extends DefaultHttpUrlGenerator {
     let resourceURLs = this.knownHttpResourceUrls[entityName];
     if (entityName == 'Cake') {
       resourceURLs = {
-        collectionResourceUrl: 'http://localhost:3000/cakes/',
-        entityResourceUrl: 'http://localhost:3000/cakes/',
+        collectionResourceUrl: 'https://angular3nypwa-yihv--3000.local-credentialless.webcontainer.io/cakes/',
+        entityResourceUrl: 'https://angular3nypwa-yihv--3000.local-credentialless.webcontainer.io/cakes/',
       };
       this.registerHttpResourceUrls({ [entityName]: resourceURLs });
     }
