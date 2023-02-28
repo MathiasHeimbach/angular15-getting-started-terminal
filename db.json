@@ -1,10 +1,28 @@
 {
   "cakes": [
     {
-    "id": 1,
-    "name": "Vanillekeks",
-    "description": "Nice flavor.",
-    "cost": 130
-  }
-]
+      "id": 1,
+      "name": "VVanillekeks",
+      "description": "Nice flavor",
+      "cost": 189
+    },
+    {
+      "id": 2,
+      "description": "hmmm",
+      "name": "VVanillekeks",
+      "cost": 1
+    },
+    {
+      "id": 3,
+      "description": "schlupf",
+      "name": "VVanillekeks2",
+      "cost": 0
+    },
+    {
+      "id": 4,
+      "description": "schlupf",
+      "name": "VVanillekeks2",
+      "cost": -1
+    }
+  ]
 }
