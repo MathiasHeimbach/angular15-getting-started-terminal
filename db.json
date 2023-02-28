@@ -4,7 +4,13 @@
       "id": 1,
       "name": "Erdbeerkuchen",
       "description": "Fruchtig",
-      "cost": 30
+      "cost": 32
+    },
+    {
+      "id": 2,
+      "description": "Cremig",
+      "name": "Käsekuchen",
+      "cost": 34
     }
   ]
 }
